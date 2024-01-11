@@ -1,1 +1,42 @@
+h3{
+    background-color: yellowgreen;
+    color: maroon;
+}
 
+
+/* if you want to apply background color in hole page
+* means full page  */
+*{
+    background-color: orange;
+}
+
+
+/* for using class we use . before the class name  
+in below . using for class para is the class name*/
+.para{
+    background-color: brown;
+}
+
+.para1{
+    background-color: blue;
+}
+
+.param{
+    color:blue
+}
+
+#p01{
+    background-color: yellow;
+}
+
+#p02{
+    background-color: chocolate;
+}
+
+#p03{
+    background-color: darkgoldenrod;
+}
+
+#p04{
+    background-color: green;
+}
