@@ -58,4 +58,4 @@ universal selector- lowest priority to id selector amd class selector and elemen
 Id Selector -> Class Selector -> Element Selector -> Universal Selector
 
 body tag css- means apply these property only to body tag
-html tag css-4444
+html tag css-
