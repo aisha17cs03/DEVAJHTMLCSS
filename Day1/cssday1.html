@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head is basically use for configuration if any thing need to link link to in head  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Class</title>
+    <!-- External css file link here  -->
+    <link rel="stylesheet" href="../Day1/day1style.css" />
+    <!-- Internal css  -->
+    <style>
+      p {
+        background-color: palevioletred;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <!-- Inline css- its easiest to apply  -->
+      <h1 style="background-color: yellowgreen">First CSS Class Inline css</h1>
+      <!-- Multiple Inline css applied  -->
+      <h1 style="background-color: maroon; color: blanchedalmond">
+        First CSS Class Multiple Inline Css
+      </h1>
+    </div>
+
+    <!-- Internal css  -->
+    <div>
+      <p>First CSS Class Internal css</p>
+      <p>Secon paragraph</p>
+      <p>Third Paragraph</p>
+    </div>
+    <p>fourth paragraph</p>
+
+    <!-- External Css  -->
+    <div>
+      <h3>This is External css</h3>
+      <h3>
+        we can use external css in multiple html pages at a time but we can not
+        use inline css and internal css in html pages at a time
+      </h3>
+    </div>
+
+    <!-- Class in css  
+    if I want first para have h red color and last 3 para have a green color then we use a class
+    class is donate as . -->
+    <div>
+      <h3>Class css</h3>
+      <p class="para">First Para</p>
+      <p class="para">Second Para</p>
+      <p class="para1">Second Para</p>
+      <p class="para1">Third Para</p>
+      <p class="para1">Fourth Para</p>
+      <p class="para1">Fifth Para</p>
+    </div>
+
+    <!-- Id in css 
+    if i want to make font color white every para but background color unique so we use id
+    id is denote # -->
+    <div>
+      <h3>id css</h3>
+      <p class="param" id="p01">First Para</p>
+      <p class="param" id="p02">Second Para</p>
+      <p class="param" id="p03">Second Para</p>
+      <p class="param" id="p04">Third Para</p>
+      <p class="param" id="p03">Fourth Para</p>
+      <p class="param" id="p01">Fifth Para</p>
+      <!-- in class and id have the same functionlity so id have more priority css apply first of id one  -->
+      
+    </div>
+  </body>
+</html>
