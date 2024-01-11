@@ -1,1 +1,61 @@
+a). Inline CSS- It is use when you want to apply css in small part or individual
+part This is inline css ex-
+<h1 style="background-color: maroon; color: blanchedalmond">
+  First CSS Class Multiple Inline Css
+</h1>
+b). External CSS- we need to create individual css file and link in html page
+ecternal css we use in multiple html pages at a time but inline and internal css
+we can use only the same 1 html page not multiple html page at a time. You can
+add mutilple css link but it makes page slow internal and inline css is faster
+as campare to external css ex-
+<link rel="stylesheet" href="../Day1/day1style.css" />
+<h3>This is External css</h3>
+<h3>
+  we can use external css in multiple html pages at a time but we can not use
+  inline css and internal css in html pages at a time
+</h3>
+h3{ background-color: yellowgreen; color: maroon; } c). Internal CSS- If you
+want to apply css in group then use inline css ex-<style>
+  p {
+    background-color: palevioletred;
+  }
+</style>
+<p>First CSS Class Internal css</p>
 
+Q. I am applying the all 3 types of css in same tag which one will work? 
+Ans-Inline css work its based on priority bases 
+Inline css(highest priority)
+Internal css(lower than inline) 
+External css(lowest than inline) 
+
+Class vs Id in
+class and id have the same functionlity so id have more priority css apply first
+of id one 
+
+What is a selector? 
+Different types of selector? 
+Ans- Many types of selectors
+1. Element selector
+2. Class selector
+3. Id selector
+4. Universal selector
+
+1. Element selector-  when u apply a css on a particular element its element selector ex- h1,h2,h3, audio,video,input ,body tag
+All the container tags are the element selector.
+
+2. Class selector- whatever you name .{dot}, class="" when you select a element with the help of class its class selector
+selector means selecting somthing
+
+3. Id Selector- when you use #name id="" its id selector
+
+4. Universal selector- *{star} its universal selector
+* means those element does not have property apply these property to it.
+
+ID Selector - Highest priority
+Class Selector- lower priority to id Selector
+element selector - lower priority to id selector and class Selector
+universal selector- lowest priority to id selector amd class selector and element Selector
+Id Selector -> Class Selector -> Element Selector -> Universal Selector
+
+body tag css- means apply these property only to body tag
+html tag css-4444
