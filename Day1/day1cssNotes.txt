@@ -59,3 +59,5 @@ Id Selector -> Class Selector -> Element Selector -> Universal Selector
 
 body tag css- means apply these property only to body tag
 html tag css-
+
+
